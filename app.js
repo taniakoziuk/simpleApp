@@ -62,7 +62,7 @@ if(num % 3 == 0){
 }
 if (num % 7 == 0){
     console.log('number is a multiple of 7')
-}*/
+}
 
 console.log('Task 1');
 
@@ -87,4 +87,56 @@ function isEmptyString(str) {
       let abbr = firstN.chartAt(0);
       let abbr1 = lastN.chartAt(0);
       
-console.log(abbr + abbr1);
+console.log(abbr + abbr1); */
+
+console.log('Task 1');
+
+let array = ['a', 'b', 'c', 'd'];
+function arLength (){
+    let f = array.length;
+    console.log(f);
+    return f;
+}
+
+//let t = array[f];
+//console.log(t);
+
+
+console.log('Task 2');
+
+let numb = [1, 2, 3, 4];
+console.log(numb.join());
+
+
+console.log('Task 3');
+
+let arr1 = [1, 2, 3, 4];
+let arr2 = [10, 20, 30, 40];
+let results = [];
+
+for(let i = 0; i < arr1.length; i++){
+    results[i] = arr1[i] + arr2[i];
+}
+
+console.log(results);
+
+console.log('Task 4');
+
+let rectangle = {
+    width: 4,
+    height: 5
+}
+
+function area (width, height){
+    j = width * height;
+console.log(j);
+}
+
+area(3, 4);
+
+function perimetr (width, height){
+    g = (width + height) * 2;
+    console.log(g);
+}
+
+perimetr(3, 4);
