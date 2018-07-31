@@ -11,7 +11,7 @@ stdin.addListener("data", (txt) => {
         console.log(`\nHi ${txt.toString().trim()}, nice to meet you at Eleks QA Academy 2018. I am sure you'll become great in your job.`);
         console.log(`${txt.toString().trim()}, to quit this application you can use 'Ctrl + C' keys, or type 'quit' and hit 'Enter'`); 
     }   
-  }); */
+  }); 
 
   console.log('Task 1');
 
@@ -62,4 +62,29 @@ if(num % 3 == 0){
 }
 if (num % 7 == 0){
     console.log('number is a multiple of 7')
-}
+}*/
+
+console.log('Task 1');
+
+let string = 'abcdefg';
+let s1 = string.includes('j');
+console.log(s1);
+
+console.log('Task 2');
+
+let string1 = '';
+function isEmptyString(str) {
+     console.log(!!str);
+  }
+
+  isEmptyString(string1);
+
+  console.log('Task 3');
+
+  let firstN = 'Tania';
+  let lastN = 'Koziuk';
+
+      let abbr = firstN.chartAt(0);
+      let abbr1 = lastN.chartAt(0);
+      
+console.log(abbr + abbr1);
