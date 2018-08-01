@@ -73,9 +73,9 @@ resultArr.push(url.slice(0, url.indexOf("://")));
 for(let i = 2; i < 5; i++)
     resultArr.push(url.split("/") [i]);
 
-console.log(`${resultArr}`);*/
+console.log(`${resultArr}`);
 
-let circle = {
+/* let circle = {
     radius: 3,
     type: "circle"
 };
